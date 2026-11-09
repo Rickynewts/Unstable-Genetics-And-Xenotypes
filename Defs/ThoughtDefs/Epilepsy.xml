@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>UG_PostSeizureDistress</defName>
+    <!--记忆类thought -->
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <!--5小时-->
+    <durationDays>0.2083333</durationDays>
+    <!--不叠加-->
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>That was awful</label>
+        <description>That was awful. I still feel weak.</description>
+        <!--心情-->
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

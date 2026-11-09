@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FurDef>
+    <defName>UG_WrinkledSkin</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Things/Humanlike/Parts/Bodies/WrinkledBody_Male</Male>
+      <Female>Things/Humanlike/Parts/Bodies/WrinkledBody_Female</Female>
+      <Hulk>Things/Humanlike/Parts/Bodies/WrinkledBody_Hulk</Hulk>
+      <Fat>Things/Humanlike/Parts/Bodies/WrinkledBody_Fat</Fat>
+      <Thin>Things/Humanlike/Parts/Bodies/WrinkledBody_Thin</Thin>
+      <Child>Things/Humanlike/Parts/Bodies/WrinkledBody_Child</Child>
+      <Baby>Things/Humanlike/Parts/Bodies/WrinkledBody_Child</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+</Defs>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <XenotypeDef>
+    <defName>Savant</defName>
+    <label>Savant</label>
+    <description>A subspecies of the Genie, produced by the unstable gene assembler, always carrying a set of random defective genes.</description>
+    <descriptionShort>A subspecies of the Genie, produced by the unstable gene assembler, always carrying a set of random defective genes. They are ugly, with bulging skulls.</descriptionShort>
+    <!--图标-->
+    <iconPath>UI/Icons/Xenotypes/Savant</iconPath>
+    <combatPowerFactor>1</combatPowerFactor>
+    <canGenerateAsCombatant>false</canGenerateAsCombatant>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <genes>
+      <li>ElongatedFingers</li>
+      <li>AptitudeRemarkable_Intellectual</li>
+      <li>AptitudeRemarkable_Crafting</li>
+      <li>AptitudeTerrible_Social</li>
+      <li>AptitudePoor_Animals</li>
+      <li>AptitudePoor_Plants</li>
+      <li>Pain_Extra</li>
+      <li>Delicate</li>
+      <li>Aggression_DeadCalm</li>
+      <li>Learning_Fast</li>
+      <!--不稳定基因-->
+      <li>UG_Neurasthenia</li>
+      <li>UG_Epilepsy</li>
+      <li>UG_FragileSpine</li>
+      <li>UG_SensitiveStomach</li>
+      <!--外观-->
+      <li>Beauty_VeryUgly</li>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>Body_Thin</li>
+      <li>UG_WrinkledSkin</li>
+      <li>UG_WrinkledElongatedHead</li>
+      <li>UG_Wrinkled_Skin_lightred</li>
+    </genes>
+  </XenotypeDef>
+</Defs>

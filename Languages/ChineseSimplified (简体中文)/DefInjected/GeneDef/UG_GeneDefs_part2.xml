@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Neurodegeneration -->
+  <UG_NeurodegenerativeDisease.label>神经退行</UG_NeurodegenerativeDisease.label>
+  <UG_NeurodegenerativeDisease.labelShortAdj>退行</UG_NeurodegenerativeDisease.labelShortAdj>
+  <!-- EN: Carriers of this gene suffer gradual degeneration of the brain. -->
+  <UG_NeurodegenerativeDisease.description>这种基因的携带者大脑会逐渐退化。</UG_NeurodegenerativeDisease.description>
+  <UG_NeurodegenerativeDisease.customEffectDescriptions>
+    <li>获得阿尔兹海默症</li>
+  </UG_NeurodegenerativeDisease.customEffectDescriptions>
+
+  <!-- EN: Photophobia -->
+  <UG_Photophobia.label>惧光</UG_Photophobia.label>
+  <UG_Photophobia.labelShortAdj>惧光</UG_Photophobia.labelShortAdj>
+  <!-- EN: Carriers of this gene have eyes extremely sensitive to bright light. Direct sunlight sharply reduces their vision and judgment. -->
+  <UG_Photophobia.description>这种基因的携带者眼睛对强光非常敏感，阳光直射会让他们的视力与判断力大幅下降。</UG_Photophobia.description>
+
+  <!-- EN: Weak stomach -->
+  <UG_SensitiveStomach.label>肠道脆弱</UG_SensitiveStomach.label>
+  <UG_SensitiveStomach.labelShortAdj>弱胃</UG_SensitiveStomach.labelShortAdj>
+  <!-- EN: Carriers of this gene have a small stomach capacity and digest food poorly. -->
+  <UG_SensitiveStomach.description>这种基因的携带者胃肠容积偏小，消化吸收较差。</UG_SensitiveStomach.description>
+
+  <!-- EN: Water terror -->
+  <UG_WaterTerror.label>恐水症</UG_WaterTerror.label>
+  <UG_WaterTerror.labelShortAdj>恐水症</UG_WaterTerror.labelShortAdj>
+  <!-- EN: Carriers of this gene have an instinctive terror of water. -->
+  <UG_WaterTerror.description>这种基因的携带者对水有着本能的恐惧。</UG_WaterTerror.description>
+  <UG_WaterTerror.customEffectDescriptions>
+    <li>被淋湿时获得心情减益</li>
+    <li>站在水中获得心情减益</li>
+    <li>站在水中获得"恐水恐慌"状态</li>
+  </UG_WaterTerror.customEffectDescriptions>
+
+  <!-- EN: Wrinkled elongated head -->
+  <UG_WrinkledElongatedHead.label>皱缩细长头颅</UG_WrinkledElongatedHead.label>
+  <UG_WrinkledElongatedHead.labelShortAdj>细长皱头</UG_WrinkledElongatedHead.labelShortAdj>
+  <!-- EN: Carriers of this gene have skulls that overgrow front to back, with dry, deeply wrinkled scalp, giving the head an elongated, strange shape. -->
+  <UG_WrinkledElongatedHead.description>这种基因的携带者颅骨向前后过度生长，头皮干瘪多皱，头型显得细长而怪异。</UG_WrinkledElongatedHead.description>
+
+  <!-- EN: Wrinkled skin -->
+  <UG_WrinkledSkin.label>皱缩皮肤</UG_WrinkledSkin.label>
+  <UG_WrinkledSkin.labelShortAdj>皱皮</UG_WrinkledSkin.labelShortAdj>
+  <!-- EN: Carriers of this gene have dry, inelastic skin covered in deep wrinkles. -->
+  <UG_WrinkledSkin.description>这种基因的携带者皮肤干燥、失去弹性，遍布深深的皱褶。</UG_WrinkledSkin.description>
+
+  <!-- EN: Light red skin -->
+  <UG_Wrinkled_Skin_lightred.label>淡红色肤色</UG_Wrinkled_Skin_lightred.label>
+  <UG_Wrinkled_Skin_lightred.labelShortAdj>淡红色肤色</UG_Wrinkled_Skin_lightred.labelShortAdj>
+  <!-- EN: Carriers of this gene secrete a pigment that gives their skin a light red hue. -->
+  <UG_Wrinkled_Skin_lightred.description>这种基因的携带者会分泌一种色素，使得他们的皮肤呈现淡红色。</UG_Wrinkled_Skin_lightred.description>
+
+</LanguageData>

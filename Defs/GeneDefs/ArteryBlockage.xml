@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_ArteryBlockage</defName>
+    <label>Artery blockage</label>
+    <labelShortAdj>artery blockage</labelShortAdj>
+    <description>Carriers of this gene tend to deposit lipid plaques on the inner walls of their blood vessels. The arteries of the heart gradually clog, impairing blood supply throughout the body.</description>
+    <customEffectDescriptions>
+      <li>Suffers from artery blockage</li>
+    </customEffectDescriptions>
+    <!--UI-->
+    <iconPath>UI/Genes/Gene_ArteryBlockage</iconPath>
+    <displayCategory>UnstableGenetics</displayCategory>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <geneClass>UnstableGenetics.Gene_ArteryBlockage</geneClass>
+    <!--自定义图标-->
+    <modExtensions>
+     <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+       <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+     </li>
+    </modExtensions>
+    <!--复杂度-->
+    <biostatCpx>1</biostatCpx>
+    <!--代谢率-->
+    <biostatMet>2</biostatMet>
+    <!--生成权重-->
+    <selectionWeight>0.5</selectionWeight>
+  </GeneDef>
+</Defs>

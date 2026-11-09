@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Assemble unstable xenogerm -->
+  <UG_AssembleUnstableXenogerm.label>创建不稳定异种胚芽</UG_AssembleUnstableXenogerm.label>
+  <!-- EN: assembling unstable xenogerm at -->
+  <UG_AssembleUnstableXenogerm.verb>创建不稳定异种胚芽于</UG_AssembleUnstableXenogerm.verb>
+  <!-- EN: assembling unstable xenogerm at -->
+  <UG_AssembleUnstableXenogerm.gerund>创建不稳定异种胚芽于</UG_AssembleUnstableXenogerm.gerund>
+
+</LanguageData>

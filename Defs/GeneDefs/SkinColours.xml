@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <GeneDef ParentName="GeneSkinColorOverride">
+        <defName>UG_Wrinkled_Skin_lightred</defName>
+        <label>Light red skin</label>
+        <labelShortAdj>light red skin</labelShortAdj>
+        <description>Carriers of this gene secrete a pigment that gives their skin a light red hue.</description>
+        <randomBrightnessFactor>0.2</randomBrightnessFactor>
+        <skinColorOverride>(0.717,0.643,0.603)</skinColorOverride>
+        <iconPath>UI/Genes/SkinColor_Icon</iconPath>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>Skin</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>

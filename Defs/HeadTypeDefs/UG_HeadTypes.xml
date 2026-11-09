@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--requiredGenes 让头型只在对应基因存在时可用；基因侧再用 forcedHeadTypes 强制指定。-->
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>UG_WrinkledElongatedHead</defName>
+    <graphicPath>Things/Humanlike/Parts/Head/WrinkledElongatedHead</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <requiredGenes>
+      <li>UG_WrinkledElongatedHead</li>
+    </requiredGenes>
+    <eyeOffsetEastWest>(0.16, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+</Defs>

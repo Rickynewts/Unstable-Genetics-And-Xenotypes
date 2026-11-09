@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_Photophobia</defName>
+    <label>Photophobia</label>
+    <labelShortAdj>photophobic</labelShortAdj>
+    <description>Carriers of this gene have eyes extremely sensitive to bright light. Direct sunlight sharply reduces their vision and judgment.</description>
+    <!--UI-->
+    <iconPath>UI/Genes/Gene_Photophobia</iconPath>
+    <displayCategory>UnstableGenetics</displayCategory>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <dislikesSunlight>true</dislikesSunlight>
+   <!--自定义图标-->
+   <modExtensions>
+     <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+       <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+     </li>
+   </modExtensions>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+          <WorkSpeedGlobal>0.75</WorkSpeedGlobal>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <!--复杂度-->
+    <biostatCpx>1</biostatCpx>
+    <!--代谢率-->
+    <biostatMet>2</biostatMet>
+    <!--生成权重-->
+    <selectionWeight>0.5</selectionWeight>
+  </GeneDef>
+</Defs>

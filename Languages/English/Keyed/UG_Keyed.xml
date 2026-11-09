@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Unstable gene assembler -->
+  <UG_AssemblyDataLost>Assembly data lost. Assembly cancelled.</UG_AssemblyDataLost>
+  <UG_XenogermAssemblyComplete>An unstable xenogerm has been assembled.</UG_XenogermAssemblyComplete>
+  <!-- Same label as vanilla gene assembler's Recombine gizmo (vanilla appends "..." itself) -->
+  <UG_AssembleXenogermGizmo>Recombine...</UG_AssembleXenogermGizmo>
+  <!-- First sentence is verbatim the vanilla RecombineDesc -->
+  <UG_AssembleXenogermGizmoDesc>Create a new implantable xenogerm using data from genepacks in your gene library. Consumes {0} human meat and {1} neutroamine.\n\nCurrent materials: human meat {2}/{0}, neutroamine {3}/{1}</UG_AssembleXenogermGizmoDesc>
+  <UG_MaterialsInspect>Materials: human meat {0}/{1}, neutroamine {2}/{3}</UG_MaterialsInspect>
+
+  <!-- Assembly window -->
+  <UG_LoadPreset>Load preset</UG_LoadPreset>
+  <UG_NoPresetAvailable>(Has no available xenotype presets)</UG_NoPresetAvailable>
+  <UG_UnstableGenes>Unstable genes</UG_UnstableGenes>
+  <UG_UnknownUnstableGene>Unknown unstable gene</UG_UnknownUnstableGene>
+  <UG_UnknownUnstableGeneDesc>This gene is unknown until assembly is complete.</UG_UnknownUnstableGeneDesc>
+
+</LanguageData>

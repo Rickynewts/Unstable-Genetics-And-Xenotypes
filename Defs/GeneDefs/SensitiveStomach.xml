@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_SensitiveStomach</defName>
+    <label>Weak stomach</label>
+    <labelShortAdj>weak stomach</labelShortAdj>
+    <description>Carriers of this gene have a small stomach capacity and digest food poorly.</description>
+    <!--UI-->
+    <iconPath>UI/Genes/Gene_SensitiveStomach</iconPath>
+    <displayCategory>UnstableGenetics</displayCategory>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <!--自定义图标-->
+    <modExtensions>
+     <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+       <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+     </li>
+    </modExtensions>
+    <statFactors>
+      <MaxNutrition>0.7</MaxNutrition>
+    </statFactors>
+    <!--复杂度-->
+    <biostatCpx>-1</biostatCpx>
+    <!--代谢率-->
+    <biostatMet>1</biostatMet>
+    <!--生成权重-->
+    <selectionWeight>0.5</selectionWeight>
+  </GeneDef>
+</Defs>

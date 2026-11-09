@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_Epilepsy</defName>
+    <label>Epilepsy</label>
+    <labelShortAdj>epileptic</labelShortAdj>
+    <description>Carriers of this gene have a markedly higher chance of abnormal electrical discharges in the brain. Seizures cause sudden loss of consciousness.</description>
+    <customEffectDescriptions>
+      <li>2% chance per day of an epileptic seizure</li>
+    </customEffectDescriptions>
+    <!--UI-->
+    <iconPath>UI/Genes/Gene_Epilepsy</iconPath>
+    <displayCategory>UnstableGenetics</displayCategory>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <geneClass>UnstableGenetics.Gene_Epilepsy</geneClass>
+    <modExtensions>
+      <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+        <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+      </li>
+      <li Class="UnstableGenetics.ModExtension_Epilepsy">
+        <seizureDurationTicks>7200</seizureDurationTicks>
+      </li>
+    </modExtensions>
+    <!--复杂度-->
+    <biostatCpx>1</biostatCpx>
+    <!--代谢率-->
+    <biostatMet>1</biostatMet>
+    <!--生成权重-->
+    <selectionWeight>0.5</selectionWeight>
+  </GeneDef>
+</Defs>

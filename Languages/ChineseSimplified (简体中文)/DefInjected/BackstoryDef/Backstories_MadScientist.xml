@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Mad scientist -->
+  <MadScientist.title>疯狂科学家</MadScientist.title>
+  <!-- EN: Scientist -->
+  <MadScientist.titleShort>科学家</MadScientist.titleShort>
+  <!-- EN: [PAWN_nameDef] spent [PAWN_possessive] adult years obsessed with building mad contraptions. -->
+  <MadScientist.description>[PAWN_nameDef]在成年后，一心想着捣鼓些疯狂的玩意儿。</MadScientist.description>
+
+</LanguageData>

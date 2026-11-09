@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_KidneyFailure</defName>
+    <label>Kidney failure</label>
+    <labelShortAdj>kidney failure</labelShortAdj>
+    <description>Carriers of this gene suffer progressive kidney degeneration, as if from organ decay. Blood filtration steadily declines until the organs fail entirely.</description>
+    <geneClass>UnstableGenetics.Gene_KidneyFailure</geneClass>
+    <customEffectDescriptions>
+      <li>Suffers from organ decay (kidneys)</li>
+    </customEffectDescriptions>
+    <!--自定义背景-->
+    <modExtensions>
+      <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+        <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+      </li>
+    </modExtensions>
+    <!--UI-->
+    <iconPath>UI/Genes/Gene_KidneyFailure</iconPath>
+    <displayCategory>UnstableGenetics</displayCategory>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <!--复杂度-->
+    <biostatCpx>1</biostatCpx>
+    <!--代谢率-->
+    <biostatMet>2</biostatMet>
+    <!--生成权重-->
+    <selectionWeight>0.5</selectionWeight>
+  </GeneDef>
+</Defs>

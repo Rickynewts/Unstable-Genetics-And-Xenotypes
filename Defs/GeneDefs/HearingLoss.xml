@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_HearingLoss</defName>
+    <label>Hearing loss</label>
+    <labelShortAdj>deaf</labelShortAdj>
+    <description>Carriers of this gene suffer from cochlear degeneration that distorts the transmission of sound information.</description>
+    <customEffectDescriptions>
+      <li>Both ears at -50% efficiency</li>
+    </customEffectDescriptions>
+    <!--UI-->
+    <iconPath>UI/Genes/Hearing loss</iconPath>
+    <displayCategory>UnstableGenetics</displayCategory>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <geneClass>UnstableGenetics.Gene_HearingLoss</geneClass>
+    <!--自定义图标-->
+    <modExtensions>
+     <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+       <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+     </li>
+    </modExtensions>
+    <!--复杂度-->
+    <biostatCpx>1</biostatCpx>
+    <!--代谢率-->
+    <biostatMet>1</biostatMet>
+    <!--生成权重-->
+    <selectionWeight>0.5</selectionWeight>
+  </GeneDef>
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Unstable gene assembler -->
+  <UnstableGeneassembler.label>不稳定基因装配器</UnstableGeneassembler.label>
+  <!-- EN: An unstable gene assembler. It consumes materials to piece together an unstable xenogerm carrying defective genes. -->
+  <UnstableGeneassembler.description>不稳定基因装配器。消耗材料拼凑出带缺陷基因的不稳定异种胚芽。</UnstableGeneassembler.description>
+
+  <!-- EN: Unstable xenogerm -->
+  <UnstableXenogerm.label>不稳定异种胚芽</UnstableXenogerm.label>
+  <!-- EN: A self-contained biological organ containing one or more implantable xenogenes.\n\nOnce implanted into a host, an unstable xenogerm uses viruses, hormones, biosynthetic drugs and possibly machinery to alter the host's genes, gene expression and phenotype development. Depending on the unstable xenogerm, the host develops a variety of strange traits and abilities, transforming into another human xenotype.\n\nImplanting an unstable xenogerm is a traumatic process. Once implanted, a person will be bedridden for several days while the transformation completes, and will also carry multiple defective genes.\n\nWhile in storage and transport, unstable xenogerms are kept safely inside sealed containers. -->
+  <UnstableXenogerm.description>一个自含的生物器官，内含一个或多个可植入的异种基因。\n\n一旦植入宿主体内，不稳定异种胚芽就会利用病毒、激素、生物合成药物以及可能存在的机械来改变宿主的基因、基因表达和表型发育。根据不稳定异种胚芽的不同，宿主会发展出各种各样的奇特特征和能力，从而转变为另一种人类异种型。\n\n不稳定异种胚芽植入是一个创伤性过程。一旦被植入不稳定异种胚芽，人会在数天内卧床不起，等待转化完成，同时植入多种缺陷基因。\n\n在储存和运输过程中，不稳定异种胚芽会被保存在密封容器中安全存放。</UnstableXenogerm.description>
+
+</LanguageData>

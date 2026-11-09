@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- 不稳定基因装配器 -->
+  <!-- EN: Assembly data lost. Assembly cancelled. -->
+  <UG_AssemblyDataLost>组装数据丢失，本次组装已中止。</UG_AssemblyDataLost>
+  <!-- EN: An unstable xenogerm has been assembled. -->
+  <UG_XenogermAssemblyComplete>一枚不稳定异种胚芽已经组装完成。</UG_XenogermAssemblyComplete>
+  <!-- EN: Recombine... -->
+  <UG_AssembleXenogermGizmo>重组...</UG_AssembleXenogermGizmo>
+  <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. Consumes {0} human meat and {1} neutroamine.\n\nCurrent materials: human meat {2}/{0}, neutroamine {3}/{1} -->
+  <UG_AssembleXenogermGizmoDesc>使用全部基因库中基因组的数据来组装一枚可植入的异种胚芽。消耗 {0} 份人肉和 {1} 份中性胺。\n\n当前材料：人肉 {2}/{0}，中性胺 {3}/{1}</UG_AssembleXenogermGizmoDesc>
+  <!-- EN: Materials: human meat {0}/{1}, neutroamine {2}/{3} -->
+  <UG_MaterialsInspect>材料：人肉 {0}/{1}，中性胺 {2}/{3}</UG_MaterialsInspect>
+
+  <!-- 组装窗口 -->
+  <!-- EN: Load preset -->
+  <UG_LoadPreset>载入预设</UG_LoadPreset>
+  <!-- EN: (This mod has no available xenotype presets) -->
+  <UG_NoPresetAvailable>（没有可用的异种预设）</UG_NoPresetAvailable>
+  <!-- EN: Unstable genes -->
+  <UG_UnstableGenes>不稳定基因</UG_UnstableGenes>
+  <!-- EN: Unknown unstable gene -->
+  <UG_UnknownUnstableGene>未知不稳定基因</UG_UnknownUnstableGene>
+  <!-- EN: This gene is unknown until assembly is complete. -->
+  <UG_UnknownUnstableGeneDesc>这个基因在组装完成前是未知的。</UG_UnknownUnstableGeneDesc>
+
+</LanguageData>

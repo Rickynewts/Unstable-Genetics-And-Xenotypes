@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="GeneSetHolderBase" MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>UnstableXenogerm</defName>
+    <label>Unstable xenogerm</label>
+    <description>A self-contained biological organ containing one or more implantable xenogenes.\n\nOnce implanted into a host, an unstable xenogerm uses viruses, hormones, biosynthetic drugs and possibly machinery to alter the host's genes, gene expression and phenotype development. Depending on the unstable xenogerm, the host develops a variety of strange traits and abilities, transforming into another human xenotype.\n\nImplanting an unstable xenogerm is a traumatic process. Once implanted, a person will be bedridden for several days while the transformation completes, and will also carry multiple defective genes.\n\nWhile in storage and transport, unstable xenogerms are kept safely inside sealed containers.</description>
+    <thingClass>UnstableGenetics.UnstableXenogerm</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <inspectorTabs>
+      <li>ITab_Genes</li>
+    </inspectorTabs>
+    <graphicData>
+      <texPath>Items/UnstableXenogerm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.85, 0.85)</drawSize>
+    </graphicData>
+
+    <statBases>
+      <MarketValue>20</MarketValue>
+    </statBases>
+
+    <descriptionHyperlinks>
+      <ThingDef>Genepack</ThingDef>
+      <ThingDef>GeneAssembler</ThingDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>

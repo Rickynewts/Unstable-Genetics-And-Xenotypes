@@ -1,0 +1,32 @@
+﻿<Defs>
+  <HediffDef>
+   <defName>UG_EpilepticSeizure</defName>
+   <label>Epileptic seizure</label>
+   <description>Currently having a seizure.</description>
+
+   <hediffClass>HediffWithComps</hediffClass>
+   <initialSeverity>1</initialSeverity>
+   <maxSeverity>1</maxSeverity>
+   <isBad>true</isBad>
+   <everCurableByItem>false</everCurableByItem>
+
+   <comps>
+     <!-- 用自定义comp倒计时 -->
+     <li Class="UnstableGenetics.HediffCompProperties_EpilepticSeizure">
+      <defaultDurationTicks>7200</defaultDurationTicks>
+     </li>
+   </comps>
+
+   <stages>
+     <li>
+      <label>Seizing</label>
+       <capMods>
+         <li>
+           <capacity>Consciousness</capacity>
+           <postFactor>0.1</postFactor>
+         </li>
+       </capMods>
+     </li>
+   </stages>
+  </HediffDef>
+</Defs>

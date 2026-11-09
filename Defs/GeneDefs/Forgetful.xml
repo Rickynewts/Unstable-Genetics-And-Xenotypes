@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_Forgetful</defName>
+    <label>Forgetful</label>
+    <labelShortAdj>forgetful</labelShortAdj>
+    <description>Carriers of this gene lose their memories quickly. What they learn rarely sticks.</description>
+    <!--UI-->
+    <iconPath>UI/Genes/Gene_Forgetful</iconPath>
+    <displayCategory>UnstableGenetics</displayCategory>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <customEffectDescriptions>
+      <li>All skills, at any level, slowly fade</li>
+      <li>Skill loss rate x150%</li>
+    </customEffectDescriptions>
+    <!--自定义图标-->
+    <!--遗忘倍率-->
+    <modExtensions>
+     <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+       <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+     </li>
+      <li Class="UnstableGenetics.ModExtension_Forgetful">
+        <forgetMultiplier>1.5</forgetMultiplier>
+      </li>
+    </modExtensions>
+    <!--复杂度-->
+    <biostatCpx>1</biostatCpx>
+    <!--代谢率-->
+    <biostatMet>2</biostatMet>
+    <!--生成权重-->
+    <selectionWeight>0.5</selectionWeight>
+  </GeneDef>
+</Defs>

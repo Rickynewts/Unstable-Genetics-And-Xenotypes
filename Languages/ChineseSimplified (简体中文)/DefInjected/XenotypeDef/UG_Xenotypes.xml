@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Savant -->
+  <Savant.label>畸识种</Savant.label>
+  <!-- EN: A subspecies of the Genie, produced by the unstable gene assembler, always carrying a set of random defective genes. -->
+  <Savant.description>智灵种的亚种，不稳定基因装配器的产物，同时携带一组随机的缺陷基因。</Savant.description>
+  <!-- EN: A subspecies of the Genie, produced by the unstable gene assembler, always carrying a set of random defective genes. They are ugly, with bulging skulls. -->
+  <Savant.descriptionShort>智灵种的亚种，不稳定基因装配器的产物，同时携带一组随机的缺陷基因,他们外貌丑陋，头颅膨大。</Savant.descriptionShort>
+
+</LanguageData>

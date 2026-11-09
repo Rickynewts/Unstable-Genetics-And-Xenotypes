@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>UG_AssembleUnstableXenogerm</defName>
+    <driverClass>UnstableGenetics.JobDriver_UnstableAssembleXenogerm</driverClass>
+    <reportString>assembling unstable xenogerm</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+</Defs>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_WrinkledElongatedHead</defName>
+    <label>Wrinkled elongated head</label>
+    <labelShortAdj>wrinkled elongated head</labelShortAdj>
+    <description>Carriers of this gene have skulls that overgrow front to back, with dry, deeply wrinkled scalp, giving the head an elongated, strange shape.</description>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>421</displayOrderInCategory>
+    <iconPath>UI/Genes/Gene_WrinkledElongatedHead</iconPath>
+    <!--自定义图标-->
+    <modExtensions>
+      <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+        <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+      </li>
+    </modExtensions>
+    <exclusionTags>
+      <li>HeadShape</li>
+    </exclusionTags>
+    <forcedHeadTypes>
+      <li>UG_WrinkledElongatedHead</li>
+    </forcedHeadTypes>
+  </GeneDef>
+</Defs>

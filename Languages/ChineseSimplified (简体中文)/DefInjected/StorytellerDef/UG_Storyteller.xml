@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Vex the Splicer -->
+  <UG_Splicer.label>维克斯·拼接者</UG_Splicer.label>
+  <!-- EN: Vex doesn't care whether your colony survives the winter. He only cares whether the lab notes look good.\n\nEvents come without rhythm: days of calm, then raids, disease and bad luck all at once in a single night. He favors biological experiments, so diseases and genetic defects are more common than elsewhere.\n\nWarning: Vex's script is not balanced. You either live on as a paper, or die as a data point. -->
+  <UG_Splicer.description>维克斯不在乎你的殖民地能不能活过冬天，他只在乎实验记录写得够不够漂亮。\n\n事件来得毫无规律：可能连着几天风平浪静，也可能在同一个晚上把袭击、疾病和坏运气一起倒在你头上。他偏爱生物实验，所以疾病和基因缺陷总比别处更常见。\n\n警告：维克斯的剧本没有平衡性。你要么活成一篇论文，要么死成一个数据点。</UG_Splicer.description>
+
+</LanguageData>

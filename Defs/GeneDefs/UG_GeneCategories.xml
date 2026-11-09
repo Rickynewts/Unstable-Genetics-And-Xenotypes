@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--基因分类-->
+  <GeneCategoryDef>
+    <defName>UnstableGenetics</defName>
+    <label>Unstable genes</label>
+    <displayPriorityInXenotype>507</displayPriorityInXenotype>
+    <displayPriorityInGenepack>507</displayPriorityInGenepack>
+  </GeneCategoryDef>
+</Defs>

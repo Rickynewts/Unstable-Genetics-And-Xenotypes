@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_Cataract</defName>
+    <label>Cataract</label>
+    <labelShortAdj>cataract</labelShortAdj>
+    <description>Carriers of this gene develop clouded lenses, leading to impaired vision.</description>
+    <geneClass>UnstableGenetics.Gene_Cataract</geneClass>
+    <customEffectDescriptions>
+      <li>Develops cataracts</li>
+    </customEffectDescriptions>
+    <!--UI-->
+    <iconPath>UI/Genes/Gene_Cataract</iconPath>
+    <displayCategory>UnstableGenetics</displayCategory>
+    <displayOrderInCategory>101</displayOrderInCategory>
+    <!--自定义图标-->
+    <modExtensions>
+     <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+       <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+     </li>
+    </modExtensions>
+    <!--复杂度-->
+    <biostatCpx>1</biostatCpx>
+    <!--代谢率-->
+    <biostatMet>2</biostatMet>
+    <!--生成权重-->
+    <selectionWeight>0.5</selectionWeight>
+  </GeneDef>
+</Defs>

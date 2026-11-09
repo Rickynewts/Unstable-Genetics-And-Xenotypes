@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>UG_WaterTerrorThought</defName>
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>UnstableGenetics.ThoughtWorker_WaterTerror</workerClass>
+    <!-- 只有携带恐水基因的小人才会评估这条想法：原版在调用 ThoughtWorker 前
+         就会先按 requiredGenes 过滤，同时基因说明里也能关联到这条心情。 -->
+    <requiredGenes>
+      <li>UG_WaterTerror</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>Water terror</label>
+        <description>Rain on my skin. It's terrifying.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Water terror</label>
+        <description>I'm soaked to the bone. This is miserable.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

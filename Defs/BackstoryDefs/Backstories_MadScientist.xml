@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <BackstoryDef>
+    <defName>MadScientist</defName>
+    <slot>Adulthood</slot>
+    <title>Mad scientist</title>
+    <titleShort>Scientist</titleShort>
+    <description>[PAWN_nameDef] spent [PAWN_possessive] adult years obsessed with building mad contraptions.</description>
+    <!-- 技能 -->
+    <skillGains>
+      <Intellectual>7</Intellectual>
+    </skillGains>
+    <!-- 躯体类型 -->
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <!-- 强制获得特性-->
+    <forcedTraits>
+     <PsychicSensitivity>1</PsychicSensitivity>
+    </forcedTraits>
+    <workDisables>None</workDisables>
+    <requiredWorkTags>None</requiredWorkTags>
+    <spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+  </BackstoryDef>
+</Defs>

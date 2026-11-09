@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: That was awful -->
+  <UG_PostSeizureDistress.stages.0.label>刚才真难受</UG_PostSeizureDistress.stages.0.label>
+  <!-- EN: That was awful. I still feel weak. -->
+  <UG_PostSeizureDistress.stages.0.description>刚才真难受，我现在还是感觉很虚弱。</UG_PostSeizureDistress.stages.0.description>
+
+  <!-- EN: Water terror -->
+  <UG_WaterTerrorThought.stages.0.label>恐水症</UG_WaterTerrorThought.stages.0.label>
+  <!-- EN: Rain on my skin. It's terrifying. -->
+  <UG_WaterTerrorThought.stages.0.description>雨水打在皮肤上，真是令人紧张。</UG_WaterTerrorThought.stages.0.description>
+  <!-- EN: Water terror -->
+  <UG_WaterTerrorThought.stages.1.label>恐水症</UG_WaterTerrorThought.stages.1.label>
+  <!-- EN: I'm soaked to the bone. This is miserable. -->
+  <UG_WaterTerrorThought.stages.1.description>我浑身湿透了，真是难受浑身。</UG_WaterTerrorThought.stages.1.description>
+
+</LanguageData>

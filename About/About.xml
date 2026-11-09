@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+  <name>[Y]Unstable Genetics And Xenotypes</name>
+  <author>Yushiren</author>
+  <packageId>Yushiren.UnstableGenetics</packageId>
+  <supportedVersions>
+    <li>1.7</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <displayName>Harmony</displayName>
+    </li>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>RimWorld - Biotech</displayName>
+      <downloadUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Yushiren.CustomGenesBackgroundFramework</li>
+  </loadAfter>
+ <description><![CDATA[Unstable Genetics向原版游戏增加了实验性的基因组装的玩法，含有多种新增机制。
+▸内容一览：
+<color=#b96f69>-增加了1种建筑物，
+-1种异种人，
+-17种相关基因，
+-1个叙事者；
+-1个背景故事。</color>
+▸推荐排序：
+↳Harmony
+↳Core
+↳Biotech
+↳Unstable Genetics
+▸语言：简体中文
+英语
+▸反馈：
+]]></description>
+</ModMetaData>

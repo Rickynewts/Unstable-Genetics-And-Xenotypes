@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkGiverDef>
+    <defName>UG_AssembleUnstableXenogerm</defName>
+    <label>Assemble unstable xenogerm</label>
+    <giverClass>UnstableGenetics.WorkGiver_UnstableAssembleXenogerm</giverClass>
+    <workType>Research</workType>
+    <verb>assembling unstable xenogerm at</verb>
+    <gerund>assembling unstable xenogerm at</gerund>
+    <priorityInType>120</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>

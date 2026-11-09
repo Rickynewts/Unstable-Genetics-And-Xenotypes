@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Epileptic seizure -->
+  <UG_EpilepticSeizure.label>癫痫发作</UG_EpilepticSeizure.label>
+  <!-- EN: Currently having a seizure. -->
+  <UG_EpilepticSeizure.description>正在癫痫发作</UG_EpilepticSeizure.description>
+  <!-- EN: Seizing -->
+  <UG_EpilepticSeizure.stages.0.label>发作中</UG_EpilepticSeizure.stages.0.label>
+
+  <!-- EN: Water terror -->
+  <UG_WaterTerrorFear.label>恐水症</UG_WaterTerrorFear.label>
+  <!-- EN: Water terror panic. -->
+  <UG_WaterTerrorFear.description>恐水恐慌。</UG_WaterTerrorFear.description>
+
+</LanguageData>

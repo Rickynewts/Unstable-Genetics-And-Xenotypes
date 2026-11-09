@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>UG_WrinkledSkin</defName>
+    <label>Wrinkled skin</label>
+    <labelShortAdj>wrinkled skin</labelShortAdj>
+    <description>Carriers of this gene have dry, inelastic skin covered in deep wrinkles.</description>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>410</displayOrderInCategory>
+    <iconPath>UI/Genes/Gene_WrinkledBody</iconPath>
+    <!--自定义图标-->
+    <modExtensions>
+       <li Class="GeneBackgroundFramework.GeneBackgroundExtension">
+         <backgroundPath>UI/Genes/GeneBackground_UnstableGene</backgroundPath>
+       </li>
+    </modExtensions>
+    <exclusionTags>
+      <li>Fur</li>
+    </exclusionTags>
+    <missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+    <fur>UG_WrinkledSkin</fur>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>WrinkledSkin</debugLabel>
+        <nodeClass>UnstableGenetics.PawnRenderNode_WrinkledSkin</nodeClass>
+        <workerClass>PawnRenderNodeWorker_Fur</workerClass>
+        <baseLayer>5</baseLayer>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <colorType>Skin</colorType>
+        <parentTagDef>Body</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+</Defs>

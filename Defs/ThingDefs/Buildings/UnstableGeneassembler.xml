@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="GeneBuildingBase">
+    <defName>UnstableGeneassembler</defName>
+    <label>Unstable gene assembler</label>
+    <description>An unstable gene assembler. It consumes materials to piece together an unstable xenogerm carrying defective genes.</description>
+    <thingClass>UnstableGenetics.Building_UnstableGeneassembler</thingClass>
+    <!--通行性-->
+    <passability>PassThroughOnly</passability>
+    <!--是否在边缘投射阴影 -->
+    <castEdgeShadows>true</castEdgeShadows>
+    <!--占格填充比例-->
+    <fillPercent>0.4</fillPercent>
+    <!--图形数据-->
+    <graphicData>
+      <!--贴图 -->
+      <texPath>Things/Building/UnstableGeneassembler</texPath>
+      <!--多方向贴图 -->
+      <graphicClass>Graphic_Multi</graphicClass>
+      <!--绘制尺寸-->
+      <drawSize>(3, 2)</drawSize>
+      <!--阴影数据-->
+      <shadowData>
+        <!--阴影体积-->
+        <volume>(2.55, 0.75, 1.7)</volume>
+      </shadowData>
+    </graphicData>
+    <!--超链接-->
+    <descriptionHyperlinks></descriptionHyperlinks>
+    <!--ticker-->
+    <tickerType>Normal</tickerType>
+    <!--尺寸-->
+    <size>(3, 2)</size>
+    <!--交互格true-->
+    <hasInteractionCell>true</hasInteractionCell>
+    <!--交互格相对偏移-->
+    <interactionCellOffset>(0, 0, 2)</interactionCellOffset>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <canOverlapZones>false</canOverlapZones>
+    <!--基础属性-->
+    <statBases>
+      <!--耐久值-->
+      <MaxHitPoints>500</MaxHitPoints>
+      <!--工作量-->
+      <WorkToBuild>12000</WorkToBuild>
+      <!--质量-->
+      <Mass>35</Mass>
+      <!--可燃性 -->
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <!--建造成本列表-->
+    <costList>
+      <!--钢铁消耗-->
+      <Steel>200</Steel>
+      <!--组件消耗-->
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <!--技能前置要求 -->
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <!-- 建筑组件列表 -->
+    <comps>
+      <!-- 电力组件：CompPowerTrader 表示参与电力消耗或生产 -->
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <!-- 基础耗电 -->
+        <basePowerConsumption>100</basePowerConsumption>
+        <!-- 待机耗电 -->
+        <idlePowerDraw>25</idlePowerDraw>
+      </li>
+      <!-- 可切换开关组件，允许玩家手动开或关 -->
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities />
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
