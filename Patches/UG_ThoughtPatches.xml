@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!--移除黑暗的环境心情惩罚 -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThoughtDef[defName="EnvironmentDark"]/nullifyingGenes</xpath>
+    <value>
+      <li>UG_Photophobia</li>
+    </value>
+  </Operation>
+
+</Patch>
